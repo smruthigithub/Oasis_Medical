@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="TestCases.PMI_TestCases"/>
+      <package name="TestCases.EMR_TestCases"/>
+      <!-- <package name="TestCases.ER_TestCases"/>-->
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

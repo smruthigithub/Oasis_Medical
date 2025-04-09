@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.EMR_TestCases.Close_Inpatient_Visit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="CloseInpatientVisit_TC013"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Close_Inpatient_Visit -->
+      <class name="TestCases.EMR_TestCases.LabFromPalette_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="LabFromPalette_Test"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.LabFromPalette_Test -->
+      <class name="TestCases.PMI_TestCases.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="Login_TC1"/>
+        </methods>
+      </class> <!-- TestCases.PMI_TestCases.LoginTest -->
+      <class name="TestCases.EMR_TestCases.TeamCollaboration_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="teamCollaboration_TC8" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.TeamCollaboration_Test -->
+      <class name="TestCases.EMR_TestCases.ReOrderSinglePharmacy_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="ReOrderSinglePharmacy"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.ReOrderSinglePharmacy_Test -->
+      <class name="TestCases.EMR_TestCases.PharmacybatchReorder_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="PharmacybatchReorder_Test"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.PharmacybatchReorder_Test -->
+      <class name="TestCases.EMR_TestCases.PharmacyOrder_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="PharmacyOrder_Test"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.PharmacyOrder_Test -->
+      <class name="TestCases.EMR_TestCases.Allergies_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="allergies_TC4" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Allergies_Test -->
+      <class name="TestCases.EMR_TestCases.EditPharmacyOrderInDraftArea_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="EditPharmacyOrderInDraftArea_Test"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.EditPharmacyOrderInDraftArea_Test -->
+      <class name="TestCases.EMR_TestCases.OR_Request_Test">
+        <methods>
+          <include name="OrRequest_TC012"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.OR_Request_Test -->
+      <class name="TestCases.EMR_TestCases.NurseTask_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="nurseTask_TC11"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.NurseTask_Test -->
+      <class name="TestCases.EMR_TestCases.MultipleNotes_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="MultipleNotes_TC12"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.MultipleNotes_Test -->
+      <class name="TestCases.EMR_TestCases.Referral_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="Referral_Test"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Referral_Test -->
+      <class name="TestCases.EMR_TestCases.Close_Emergency_Visit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="CloseEmergencyVisit_TC015"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Close_Emergency_Visit -->
+      <class name="TestCases.EMR_TestCases.ClinicalNote_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="EMR_Test"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.ClinicalNote_Test -->
+      <class name="TestCases.EMR_TestCases.RiskTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="riskTestCase001" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.RiskTest -->
+      <class name="TestCases.EMR_TestCases.Lab_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="LabTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Lab_Test -->
+      <class name="TestCases.PMI_TestCases.Insurance_Y_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="insurance_TC2"/>
+        </methods>
+      </class> <!-- TestCases.PMI_TestCases.Insurance_Y_Test -->
+      <class name="TestCases.EMR_TestCases.Transcription_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="Transcription_TC010"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Transcription_Test -->
+      <class name="TestCases.EMR_TestCases.Close_OutPatient_Visit">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="CloseOutPatientVisit_TC014"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.Close_OutPatient_Visit -->
+      <class name="TestCases.EMR_TestCases.IVOrder_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="openBrowser"/>
+          <include name="IVOrder_Test"/>
+        </methods>
+      </class> <!-- TestCases.EMR_TestCases.IVOrder_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->
